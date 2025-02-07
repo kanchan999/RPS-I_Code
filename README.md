@@ -11,34 +11,21 @@ This repository contains Python implementations of RPS-I for multiple metaheuris
 # How to Run
 
 Install Dependencies
-Python 3.7+
-NumPy
-Matplotlib (for plotting convergence curves)
-Clone or Download the repository.
-Navigate to the repository folder, then run either problem’s script (e.g. for the spring design):
-python compression_spring_design_problem.py
-or
-
-python Pressure_vessel_design_problem.py
-Each script will:
-
-Initialize the population
-Run all 12 algorithms (standard + RPS-I variants)
-Print best solutions and constraint feasibility
-Optionally plot a multi-line convergence chart
-Check Output
-The console/log will show each algorithm’s best solution, penalized fitness, objective value, and whether constraints are satisfied.
-A popup window with the convergence plot may appear if plotting is enabled.
+- Python 3.7+
+- NumPy
+- Matplotlib (for plotting convergence curves)
+- Clone or Download the repository.
+- Navigate to the repository folder, then run either problem’s script (e.g. for the spring design):
 
 # RPS-I Overview
 
 Regenerative Population Strategy-I is a dynamic approach for mitigating structural bias. At each generation:
 
 Measure:
-Population diversity (α)
-Improvement rate (β)
-Compute γ
-Reinitialize N indvidulas based on \(N = \psi(\gamma) = \lfloor (1-\gamma) \cdot (P-1) \rfloor\) 
+- Population diversity (α)
+- Improvement rate (β)
+- Compute γ
+- Reinitialize N indvidulas based on Eq. (14)
 This helps the algorithm avoid premature convergence and maintain better exploration/exploitation trade-offs.
 
 # Citation
@@ -55,5 +42,5 @@ This code is provided for academic and research purposes.
 
 For questions or collaboration, feel free to contact:
 
-Author: Kanchan Rajwar
-Email: kanchanrajwar1519@gmail..com
+- Author: Kanchan Rajwar
+- Email: kanchanrajwar1519@gmail..com
