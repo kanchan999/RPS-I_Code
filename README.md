@@ -3,10 +3,10 @@
 This repository contains Python implementations of RPS-I for multiple metaheuristic algorithms, illustrating how RPS-I dynamically addresses structural bias during optimization. 
 
 # The code includes:
-6 files (RPS_I_GA, RPS_I_PSO, RPS_I_DE, RPS_I_GWO, RPS_I_WOA, RPS_I_HHO) for comparison of strauctual bias with the base version through Generalised Signature Test.
-6 files (RPS_I_GA_POPULATION_PLOT, RPS_I_PSO_POPULATION_PLOT, RPS_I_DE_POPULATION_PLOT, RPS_I_GWO_POPULATION_PLOT, RPS_I_WOA, RPS_I_HHO_POPULATION_PLOT) for visuliazation of popualtion.
-Tension/Compression Spring Design Problem (continuous convex benchmark).
-Pressure Vessel Design Problem (engineering design benchmark).
+- 6 files (RPS_I_GA, RPS_I_PSO, RPS_I_DE, RPS_I_GWO, RPS_I_WOA, RPS_I_HHO) for comparison of strauctual bias with the base version through Generalised Signature Test.
+- 6 files (RPS_I_GA_POPULATION_PLOT, RPS_I_PSO_POPULATION_PLOT, RPS_I_DE_POPULATION_PLOT, RPS_I_GWO_POPULATION_PLOT, RPS_I_WOA, RPS_I_HHO_POPULATION_PLOT) for visuliazation of popualtion.
+- Tension/Compression Spring Design Problem (continuous convex benchmark).
+- Pressure Vessel Design Problem (engineering design benchmark).
 
 # How to Run
 
