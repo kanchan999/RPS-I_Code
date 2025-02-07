@@ -40,4 +40,4 @@ This code is provided for academic and research purposes.
 For questions or collaboration, feel free to contact:
 
 - Author: Kanchan Rajwar
-- Email: kanchanrajwar1519@gmail..com
+- Email: kanchanrajwar1519@gmail.com
