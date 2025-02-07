@@ -12,7 +12,7 @@ This repository contains Python implementations of RPS-I for multiple metaheuris
 
 - Install Dependencies: Python 3.7+, NumPy, Matplotlib (for plotting convergence curves)
 - Clone or Download the repository.
-- Navigate to the repository folder, then run either problem’s script (e.g. for the spring design):
+- Navigate to the repository folder, then run either problem’s script (e.g. for the spring design)
 
 # RPS-I Overview
 
