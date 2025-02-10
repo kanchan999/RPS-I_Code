@@ -2,7 +2,7 @@
 
 This repository contains Python implementations of RPS-I for multiple metaheuristic algorithms, illustrating how RPS-I dynamically addresses structural bias during optimization. 
 
-# The code includes:
+# The code includes
 - 6 files (e.g. RPS_I_GA) for comparison of strauctual bias with the base version through Generalised Signature Test
 - 6 files (e.g. RPS_I_GA_POPULATION_PLOT) for visuliazation of popualtion
 - Tension/Compression Spring Design Problem (continuous convex benchmark)
